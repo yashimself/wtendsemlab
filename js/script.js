@@ -6,10 +6,10 @@ function check(){
     for (i = 0; i<len/2; i++) {
         if (str[i] !== str[len - 1 - i]) {
             alert("It is not a palindrome");
-            window.location.href="index.html";
+            window.location.href="index.php";
             exit();
         }
     }
     alert("It is a palindrome");
-    window.location.href="index.html";
+    window.location.href="index.php";
 }
