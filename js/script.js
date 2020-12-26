@@ -1,7 +1,7 @@
 function check(){
     var str = document.getElementById('inpt').value;
     str = str.toLowerCase();
-    str = str.split(" ");
+    str = str.trim();
     const len = str.length;
     var i;
     for (i = 0; i<len/2; i++) {
